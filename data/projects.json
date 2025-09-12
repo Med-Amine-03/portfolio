@@ -1,0 +1,102 @@
+{
+  "projects": [
+    {
+      "id": "tunimind",
+      "slug": "tunimind",
+      "title": "TuniMind — Mental Health AI",
+      "description": "Combines CV emotion recognition with an LLM chatbot to provide empathetic responses and resources. Focused on privacy and on-device inference options.",
+      "image": "/images/projects/tunimind.png",
+      "tech": ["CV + LLM", "TensorFlow/Keras", "FastAPI", "Next.js"],
+      "github": "https://github.com/Med-Amine-03/TuniMind",
+      "demo": "https://tuni-mind.vercel.app/",
+      "featured": true,
+      "category": "AI Health"
+    },
+    {
+      "id": "resume-analyzer",
+      "slug": "resume-analyzer",
+      "title": "Resume Analyzer (NLP/LLM)",
+      "description": "An AI tool that parses resumes and extracts skills, experience, and role fit using Hugging Face Transformers. Provides insights and match scoring with a clean Next.js interface.",
+      "image": "/images/projects/resume-analyzer.png",
+      "tech": ["Transformers", "Hugging Face", "FastAPI", "Next.js"],
+      "github": "https://github.com/Med-Amine-03/resume_frontend",
+      "demo": "https://resume-frontend-indol.vercel.app/",
+      "featured": true,
+      "category": "NLP"
+    },
+    {
+      "id": "genius-chatbot",
+      "slug": "genius-chatbot",
+      "title": "Genius — Multimodal Chatbot",
+      "description": "A developer-oriented chatbot that supports code, text, and image understanding. Uses LLaMA/Transformers and tool-use patterns with a FastAPI backend and Next.js client.",
+      "image": "/images/projects/genius-chatbot.png",
+      "tech": ["LLaMA", "Transformers", "FastAPI", "Next.js", "WebSockets"],
+      "github": "https://github.com/Med-Amine-03/Genius",
+      "demo": "https://genius-nu-lilac.vercel.app/",
+      "featured": true,
+      "category": "LLM"
+    },
+    
+    {
+      "id": "storage-app",
+      "slug": "storage-app",
+      "title": "Storage App (Web)",
+      "description": "A full-stack storage/drive app with auth, file uploads, and sharing. Built with Next.js, Tailwind, Prisma, Supabase; includes role-based access and responsive UI.",
+      "image": "/images/projects/storage-app.png",
+      "tech": ["Next.js", "Tailwind", "Prisma", "Supabase", "Auth"],
+      "github": "https://github.com/Med-Amine-03/StoreIt",
+      "demo": "https://store-it-alpha-tawny.vercel.app/sign-in",
+      "featured": true,
+      "category": "Full Stack"
+    },
+    {
+      "id": "blog-app",
+      "slug": "blog-app",
+      "title": "Blog App (Web)",
+      "description": "A modern blog platform featuring markdown editing, tags, and search. Uses Next.js + Prisma + Supabase with authentication and a clean editor experience.",
+      "image": "/images/projects/blog-app.png",
+      "tech": ["Next.js", "Tailwind", "Prisma", "Supabase", "Auth"],
+      "github": "https://github.com/Med-Amine-03/Yc_Directory",
+      "demo": "https://yc-directory-pi-flax.vercel.app/",
+      "featured": true,
+      "category": "Full Stack"
+    },
+    {
+      "id": "en-ar-translator",
+      "slug": "en-ar-translator",
+      "title": "EN→AR Translator (Fine-Tuned)",
+      "description": "Fine-tuned a pre-trained translation model on English-to-Arabic datasets to improve accuracy on MENA-specific phrases and named entities. Served via API + minimal UI.",
+      "image": "/images/projects/en-ar-translator.png",
+      "tech": ["Transformers", "Fine-tuning", "FastAPI", "Next.js"],
+      "github": "https://github.com/Med-Amine-03/translation_en_ar_app-",
+      "demo": "https://transtator-hazel.vercel.app/",
+      "featured": true,
+      "category": "NLP"
+    },
+    {
+      "id": "age-mood-gender-detection",
+      "slug": "age-mood-gender-detection",
+      "title": "Age • Mood • Gender Detection (CV)",
+      "description": "A computer vision app that estimates age, detects mood, and classifies gender from images. Fine-tuned on curated datasets with robust preprocessing and confidence scores.",
+      "image": "/images/projects/age-mood-gender.png",
+      "tech": ["TensorFlow/Keras", "OpenCV", "FastAPI", "Next.js"],
+      "github": "https://github.com/Med-Amine-03/Face-Analysis-Web-Application",
+      "demo": "https://face-analysis-web-application.vercel.app/",
+      "featured": true,
+      "category": "Computer Vision"
+    },
+    {
+      "id": "titanic-predictor",
+      "slug": "titanic-predictor",
+      "title": "Titanic Survival Predictor",
+      "description": "A classic ML pipeline that predicts passenger survival using Scikit-learn with feature engineering and model evaluation. Exposed as a REST API (FastAPI) and a minimal Next.js frontend for inference.",
+      "image": "/images/projects/titanic-predictor.png",
+      "tech": ["Scikit-learn","Python", "FastAPI", "Next.js", "Docker"],
+      "github": "https://github.com/Med-Amine-03/titanic_interface",
+      "demo": "https://titanic-interface.vercel.app/",
+      "featured": true,
+      "category": "Machine Learning"
+    }
+
+  ]
+}
