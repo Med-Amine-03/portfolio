@@ -2,7 +2,7 @@
 
 ## 🚀 Overview
 
-This is my personal portfolio website showcasing my skills, projects, and experience as an AI Engineer and Full-Stack Developer. Built with modern web technologies, it highlights my work in AI, NLP, Computer Vision, and scalable web applications.
+This is my personal portfolio website showcasing my skills and projects as a Data Science master's student building AI and full-stack applications. Built with modern web technologies, it highlights my work in AI, NLP, Computer Vision, and scalable web applications.
 
 ---
 
